@@ -77,9 +77,8 @@ a {
   justify-content: space-between;
   gap: 1rem;
   padding: 0 24px;
-  background: rgba(25, 25, 25, 0.72);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
+  /* see-through dark tint: content stays sharp but darker behind the header */
+  background: rgba(10, 10, 10, 0.45);
 }
 .nav-logo img {
   display: block;
