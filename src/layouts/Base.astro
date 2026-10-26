@@ -1,0 +1,78 @@
+---
+import '../styles/site.css';
+
+interface Props {
+  title: string;
+  description?: string;
+  pageClass?: string;
+}
+const { title, description, pageClass = '' } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const siteName = 'Arnab Chakravarty';
+const defaultDescription =
+  'An inter-disciplinary designer and creative technologist working with physical and digital affordances that we take for granted to create new reconfigurations between humans.';
+const fullTitle = title === 'Hi! I am Arnab.' ? `${siteName} · chaky.space` : `${title} · ${siteName}`;
+const nav = [
+  ['Creative Tech', '/creative-tech'],
+  ['AI', '/ai'],
+  ['Design', '/design'],
+  ['AR/VR', '/ar-vr'],
+  ['About', '/about'],
+];
+const here = Astro.url.pathname.replace(base, '').replace(/\/$/, '') || '/';
+const desc = description || defaultDescription;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={desc} />
+    <!-- The old site asked search engines not to list it. Delete this line to let Google index the site. -->
+    <meta name="robots" content="noindex, nofollow" />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={desc} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={new URL(Astro.url.pathname, Astro.site)} />
+    <link rel="icon" href={`${base}/favicon.png`} type="image/png" />
+    <link rel="preload" href={`${base}/fonts/Satoshi-Variable.woff2`} as="font" type="font/woff2" crossorigin />
+  </head>
+  <body class={pageClass}>
+    <header class="nav">
+      <a class="nav-logo" href={`${base}/`} aria-label="Home">
+        <img src={`${base}/logo.png`} alt="" width="49" height="44" />
+      </a>
+      <nav aria-label="Main">
+        {nav.map(([label, href]) => (
+          <a href={`${base}${href}`} aria-current={here === href || here.startsWith(href + '/') ? 'page' : undefined}>
+            {label}
+          </a>
+        ))}
+      </nav>
+    </header>
+    <main class="page">
+      <slot />
+    </main>
+    <div class="lightbox" hidden><img alt="" /></div>
+    <script>
+      // Click an image to see it larger; click again or press Escape to close.
+      const box = document.querySelector<HTMLDivElement>('.lightbox')!;
+      const big = box.querySelector('img')!;
+      document.querySelectorAll<HTMLImageElement>('.prose img').forEach((img) => {
+        if (img.closest('a')) return;
+        img.classList.add('zoomable');
+        img.addEventListener('click', () => {
+          const sources = (img.srcset || '').split(',').map((s) => s.trim().split(' ')[0]).filter(Boolean);
+          big.src = sources.at(-1) || img.currentSrc || img.src;
+          big.alt = img.alt;
+          box.hidden = false;
+        });
+      });
+      const close = () => (box.hidden = true);
+      box.addEventListener('click', close);
+      addEventListener('keydown', (e) => e.key === 'Escape' && close());
+    </script>
+  </body>
+</html>

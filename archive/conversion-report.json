@@ -1,0 +1,256 @@
+{
+ "missing_images": [
+  {
+   "page": "/creative-tech/cr-safe",
+   "url": "https://file.notion.com/f/f/e1436ce7-c255-4b51-b5f1-cfab2bac5278/9618d869-6a0e-4d92-a4ed-ba0fc07dd247/image52.gif"
+  },
+  {
+   "page": "/creative-tech/cr-safe",
+   "url": "https://file.notion.com/f/f/e1436ce7-c255-4b51-b5f1-cfab2bac5278/7416383d-ec2b-4db5-b593-013515af3fe7/image47.gif"
+  },
+  {
+   "page": "/creative-tech/cr-safe",
+   "url": "https://file.notion.com/f/f/e1436ce7-c255-4b51-b5f1-cfab2bac5278/aa625d40-4ee5-405c-bbcb-b08b4b71755e/image51.gif"
+  }
+ ],
+ "unknown_blocks": [
+  {
+   "page": "/",
+   "block": "collection-notion-collection inline"
+  }
+ ],
+ "gifs_to_video": [
+  {
+   "page": "/ar-vr/franklin-secret-city",
+   "gif_kb": 3778,
+   "mp4_kb": 61
+  },
+  {
+   "page": "/ar-vr/franklin-secret-city",
+   "gif_kb": 7662,
+   "mp4_kb": 170
+  },
+  {
+   "page": "/ar-vr/franklin-secret-city",
+   "gif_kb": 3021,
+   "mp4_kb": 54
+  },
+  {
+   "page": "/ar-vr/unity-immersive",
+   "gif_kb": 23172,
+   "mp4_kb": 6853
+  },
+  {
+   "page": "/ar-vr/unity-immersive",
+   "gif_kb": 21086,
+   "mp4_kb": 5447
+  },
+  {
+   "page": "/ar-vr/unity-immersive",
+   "gif_kb": 7200,
+   "mp4_kb": 687
+  },
+  {
+   "page": "/ar-vr/unity-immersive",
+   "gif_kb": 22762,
+   "mp4_kb": 5146
+  },
+  {
+   "page": "/ar-vr/unity-immersive",
+   "gif_kb": 5785,
+   "mp4_kb": 512
+  },
+  {
+   "page": "/ar-vr/unity-immersive",
+   "gif_kb": 9717,
+   "mp4_kb": 878
+  },
+  {
+   "page": "/creative-tech/the-box",
+   "gif_kb": 18758,
+   "mp4_kb": 1006
+  },
+  {
+   "page": "/creative-tech/the-box",
+   "gif_kb": 4388,
+   "mp4_kb": 263
+  },
+  {
+   "page": "/creative-tech/the-box",
+   "gif_kb": 873,
+   "mp4_kb": 88
+  },
+  {
+   "page": "/creative-tech/the-box",
+   "gif_kb": 11824,
+   "mp4_kb": 651
+  },
+  {
+   "page": "/creative-tech/the-box",
+   "gif_kb": 10259,
+   "mp4_kb": 282
+  },
+  {
+   "page": "/creative-tech/the-box",
+   "gif_kb": 412,
+   "mp4_kb": 37
+  },
+  {
+   "page": "/creative-tech/cr-safe",
+   "gif_kb": 3715,
+   "mp4_kb": 291
+  }
+ ],
+ "pages": [
+  {
+   "old": "/",
+   "new": "/",
+   "blocks": 7
+  },
+  {
+   "old": "/about",
+   "new": "/about",
+   "blocks": 1
+  },
+  {
+   "old": "/ai",
+   "new": "/ai",
+   "blocks": 3
+  },
+  {
+   "old": "/ar-vr",
+   "new": "/ar-vr",
+   "blocks": 3
+  },
+  {
+   "old": "/ar-vr/franklin-secret-city",
+   "new": "/ar-vr/franklin-secret-city",
+   "blocks": 13
+  },
+  {
+   "old": "/ar-vr/future-city",
+   "new": "/ar-vr/future-city",
+   "blocks": 10
+  },
+  {
+   "old": "/ar-vr/unity-immersive",
+   "new": "/ar-vr/unity-immersive",
+   "blocks": 9
+  },
+  {
+   "old": "/ar-vr/xr-healthcare",
+   "new": "/ar-vr/xr-healthcare",
+   "blocks": 13
+  },
+  {
+   "old": "/creative-tech",
+   "new": "/creative-tech",
+   "blocks": 3
+  },
+  {
+   "old": "/creative-tech/ability-lab",
+   "new": "/creative-tech/ability-lab",
+   "blocks": 7
+  },
+  {
+   "old": "/creative-tech/follow",
+   "new": "/creative-tech/follow",
+   "blocks": 8
+  },
+  {
+   "old": "/creative-tech/madd",
+   "new": "/creative-tech/madd",
+   "blocks": 13
+  },
+  {
+   "old": "/creative-tech/rogues-gallery",
+   "new": "/creative-tech/rogues-gallery",
+   "blocks": 9
+  },
+  {
+   "old": "/creative-tech/the-box",
+   "new": "/creative-tech/the-box",
+   "blocks": 8
+  },
+  {
+   "old": "/creative-tech/verbal-gymnastics",
+   "new": "/creative-tech/verbal-gymnastics",
+   "blocks": 9
+  },
+  {
+   "old": "/creative-tech/virtuoso",
+   "new": "/creative-tech/virtuoso",
+   "blocks": 8
+  },
+  {
+   "old": "/creative-tech/weather-band",
+   "new": "/creative-tech/weather-band",
+   "blocks": 7
+  },
+  {
+   "old": "/creative-tech/whale-tales",
+   "new": "/creative-tech/whale-tales",
+   "blocks": 11
+  },
+  {
+   "old": "/databases/work-database/becoming-l",
+   "new": "/creative-tech/becoming-l",
+   "blocks": 8
+  },
+  {
+   "old": "/databases/work-database/creative-technyc-media-lab",
+   "new": "/creative-tech/cr-safe",
+   "blocks": 8
+  },
+  {
+   "old": "/databases/work-database/dataville",
+   "new": "/creative-tech/dataville",
+   "blocks": 8
+  },
+  {
+   "old": "/databases/work-database/fundamental-surgery",
+   "new": "/ar-vr/fundamental-surgery",
+   "blocks": 6
+  },
+  {
+   "old": "/databases/work-database/hardware-installations",
+   "new": "/creative-tech/hardware-installations",
+   "blocks": 7
+  },
+  {
+   "old": "/databases/work-database/jess",
+   "new": "/creative-tech/jess",
+   "blocks": 10
+  },
+  {
+   "old": "/databases/work-database/ownpath",
+   "new": "/design/ownpath",
+   "blocks": 6
+  },
+  {
+   "old": "/design",
+   "new": "/design",
+   "blocks": 3
+  },
+  {
+   "old": "/design/design-research",
+   "new": "/design/design-research",
+   "blocks": 5
+  },
+  {
+   "old": "/design/dubai-heart-city",
+   "new": "/design/dubai-heart-city",
+   "blocks": 8
+  },
+  {
+   "old": "/design/inuka",
+   "new": "/design/inuka",
+   "blocks": 9
+  },
+  {
+   "old": "/design/philips-mom",
+   "new": "/design/philips-mom",
+   "blocks": 8
+  }
+ ]
+}

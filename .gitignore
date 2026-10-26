@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.astro/
+.DS_Store
+# full-size originals from Super (270 MB) - kept locally, not in git
+archive/media/
