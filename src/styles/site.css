@@ -77,8 +77,10 @@ a {
   justify-content: space-between;
   gap: 1rem;
   padding: 0 24px;
-  /* see-through dark tint: content stays sharp but darker behind the header */
-  background: rgba(10, 10, 10, 0.45);
+  /* frosted glass, like the old site: no tint, content behind the header is blurred */
+  background: transparent;
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
 }
 .nav-logo img {
   display: block;
