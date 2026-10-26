@@ -77,8 +77,8 @@ a {
   justify-content: space-between;
   gap: 1rem;
   padding: 0 24px;
-  /* frosted glass, like the old site: no tint, content behind the header is blurred */
-  background: transparent;
+  /* frosted glass, like the old site, with a faint tint so the menu stays readable over bright images */
+  background: rgba(25, 25, 25, 0.25);
   -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
 }
